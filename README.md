@@ -165,6 +165,15 @@ Other
 + [fontawesome-iconpicker](https://github.com/itsjavi/fontawesome-iconpicker)
 + [sweetalert2](https://github.com/sweetalert2/sweetalert2)
 
+Planned changes
+------------
+`elevate-admin`:
+Update to Laravel 12
+Update dev env to sail
+Tailwind for front-end
+Login based in Sanctum
+Update javascript to VueJs
+
 License
 ------------
 `laravel-admin` is licensed under [The MIT License (MIT)](LICENSE).
