@@ -1,6 +1,6 @@
 {
     "name": "igorhaf/elevate-admin",
-    "description": "laravel admin",
+    "description": "elevate admin",
     "type": "library",
     "keywords": ["laravel", "admin", "grid", "form"],
     "homepage": "https://github.com/z-song/elevate-admin",
