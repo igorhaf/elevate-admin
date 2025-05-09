@@ -17,7 +17,7 @@ CREATE TABLE `users` (
 ```
 对应的数据模型为文件 `App\User.php`
 
-`laravel-admin`可以通过使用以下几步来快速生成`users`表的`CURD`操作页面：
+`elevate-admin`可以通过使用以下几步来快速生成`users`表的`CURD`操作页面：
 
 ## 添加路由器
 
@@ -33,7 +33,7 @@ php artisan admin:make UserController --model=App\User
 
 ## 添加路由配置
 
-在`laravel-admin`的路由配置文件`app/Admin/routes.php`里添加一行：
+在`elevate-admin`的路由配置文件`app/Admin/routes.php`里添加一行：
 ```
 $router->resource('users', UserController::class);
 ```
@@ -42,7 +42,7 @@ $router->resource('users', UserController::class);
 
 打开`http://localhost:8000/admin/auth/menu`，添加对应的menu, 然后就能在后台管理页面的左侧边栏看到用户管理页面的链接入口了。
 
-> 其中`uri`填写不包含路由前缀的的路径部分，比如完整路径是`http://localhost:8000/admin/demo/users`, 那么就填`demo/users`，如果要添加外部链接，只要填写完整的url即可，比如`http://laravel-admin.org/`.
+> 其中`uri`填写不包含路由前缀的的路径部分，比如完整路径是`http://localhost:8000/admin/demo/users`, 那么就填`demo/users`，如果要添加外部链接，只要填写完整的url即可，比如`http://elevate-admin.org/`.
 
 ### 菜单翻译
 

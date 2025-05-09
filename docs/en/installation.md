@@ -1,12 +1,12 @@
 # Installation
 
-> This package requires PHP 7+ and Laravel 5.5, for old versions please refer to [1.4](http://laravel-admin.org/docs/v1.4/#/)
+> This package requires PHP 7+ and Laravel 5.5, for old versions please refer to [1.4](http://elevate-admin.org/docs/v1.4/#/)
 
 First, install laravel, and make sure that the database connection settings are correct.
 
 Then install require this package with command:
 ```
-composer require igorhaf/laravel-admin "1.5.*"
+composer require igorhaf/elevate-admin "1.5.*"
 ```
 
 Publish assets and config with command：
@@ -46,7 +46,7 @@ app/Admin
 
 `app/Admin/routes.php` is used to define routes.
 
-`app/Admin/bootstrap.php` is bootstrapper for laravel-admin, for usage examples see comments inside it.
+`app/Admin/bootstrap.php` is bootstrapper for elevate-admin, for usage examples see comments inside it.
 
 The `app/Admin/Controllers` directory is used to store all the controllers.
 The `HomeController.php` file under this directory is used to handle home request of admin.

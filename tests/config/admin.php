@@ -109,7 +109,7 @@ return [
     ],
 
     /*
-     * By setting this option to open or close operation log in laravel-admin.
+     * By setting this option to open or close operation log in elevate-admin.
      */
     'operation_log' => [
 

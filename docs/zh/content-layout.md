@@ -1,6 +1,6 @@
 # 页面内容
 
-`laravel-admin`的布局可参考后台首页的布局文件[HomeController.php](https://github.com/z-song/laravel-admin/blob/master/src/Console/stubs/HomeController.stub)的`index()`方法。
+`elevate-admin`的布局可参考后台首页的布局文件[HomeController.php](https://github.com/z-song/elevate-admin/blob/master/src/Console/stubs/HomeController.stub)的`index()`方法。
 
 `Igorhaf\Admin\Layout\Content`类用来实现内容区的布局。`Content::body($content)`方法用来添加页面内容：
 
@@ -36,7 +36,7 @@ public function index()
 
 ## 布局
 
-`laravel-admin`的布局使用bootstrap的栅格系统，每行的长度是12，下面是几个简单的示例：
+`elevate-admin`的布局使用bootstrap的栅格系统，每行的长度是12，下面是几个简单的示例：
 
 添加一行内容:
 

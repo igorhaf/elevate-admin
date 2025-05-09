@@ -7,7 +7,7 @@
 ## 安装
 
 ```
-$ composer require laravel-admin-ext/scheduling -vvv
+$ composer require elevate-admin-ext/scheduling -vvv
 
 $ php artisan admin:import scheduling
 ```

@@ -7,7 +7,7 @@ This tool is a web interface for manage Laravel's scheduled tasks
 ## Installation
 
 ```
-$ composer require laravel-admin-ext/scheduling -vvv
+$ composer require elevate-admin-ext/scheduling -vvv
 
 $ php artisan admin:import scheduling
 ```

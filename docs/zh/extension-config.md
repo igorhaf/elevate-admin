@@ -7,7 +7,7 @@
 ## 安装
 
 ```
-$ composer require laravel-admin-ext/config
+$ composer require elevate-admin-ext/config
 
 $ php artisan migrate
 ```

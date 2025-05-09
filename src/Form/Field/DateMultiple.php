@@ -5,15 +5,15 @@ namespace Igorhaf\Admin\Form\Field;
 class DateMultiple extends Text
 {
     protected static $css = [
-        '/vendor/laravel-admin/flatpickr/dist/flatpickr.min.css',
-        '/vendor/laravel-admin/flatpickr/dist/shortcut-buttons-flatpickr/themes/light.min.css',
+        '/vendor/elevate-admin/flatpickr/dist/flatpickr.min.css',
+        '/vendor/elevate-admin/flatpickr/dist/shortcut-buttons-flatpickr/themes/light.min.css',
 
     ];
 
     protected static $js = [
-        '/vendor/laravel-admin/flatpickr/dist/flatpickr.js',
-        '/vendor/laravel-admin/flatpickr/dist/shortcut-buttons-flatpickr/shortcut-buttons-flatpickr.min.js',
-        '/vendor/laravel-admin/flatpickr/dist/l10n/zh.js',
+        '/vendor/elevate-admin/flatpickr/dist/flatpickr.js',
+        '/vendor/elevate-admin/flatpickr/dist/shortcut-buttons-flatpickr/shortcut-buttons-flatpickr.min.js',
+        '/vendor/elevate-admin/flatpickr/dist/l10n/zh.js',
     ];
 
     protected $format = 'YYYY-MM-DD';

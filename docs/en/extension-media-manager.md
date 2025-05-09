@@ -7,7 +7,7 @@ This tool for manage local files
 ## Installation
 
 ```
-$ composer require laravel-admin-ext/media-manager -vvv
+$ composer require elevate-admin-ext/media-manager -vvv
 
 $ php artisan admin:import media-manager
 ```

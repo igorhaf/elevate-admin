@@ -1,6 +1,6 @@
 # 自定义图表
 
-`laravel-admin 1.5`已经移除了所有的图表组件，如果要在页面中加入图表组件，可以参考下面的流程
+`elevate-admin 1.5`已经移除了所有的图表组件，如果要在页面中加入图表组件，可以参考下面的流程
 
 用`chartjs`举例，首先要下载[chartjs](http://chartjs.org/)，放到public目录下面，比如放在`public/vendor/chartjs`目录
 

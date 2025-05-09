@@ -288,7 +288,7 @@ class Admin
     }
 
     /**
-     * Register the laravel-admin builtin routes.
+     * Register the elevate-admin builtin routes.
      *
      * @return void
      *
@@ -300,7 +300,7 @@ class Admin
     }
 
     /**
-     * Register the laravel-admin builtin routes.
+     * Register the elevate-admin builtin routes.
      *
      * @return void
      */

@@ -7,7 +7,7 @@ return [
     | Laravel-admin name
     |--------------------------------------------------------------------------
     |
-    | This value is the name of laravel-admin, This setting is displayed on the
+    | This value is the name of elevate-admin, This setting is displayed on the
     | login page.
     |
     */
@@ -41,7 +41,7 @@ return [
     | Laravel-admin bootstrap setting
     |--------------------------------------------------------------------------
     |
-    | This value is the path of laravel-admin bootstrap file.
+    | This value is the path of elevate-admin bootstrap file.
     |
     */
     'bootstrap' => app_path('Admin/bootstrap.php'),
@@ -167,7 +167,7 @@ return [
     | Laravel-admin database settings
     |--------------------------------------------------------------------------
     |
-    | Here are database settings for laravel-admin builtin model & tables.
+    | Here are database settings for elevate-admin builtin model & tables.
     |
     */
     'database' => [
@@ -204,7 +204,7 @@ return [
     | User operation log setting
     |--------------------------------------------------------------------------
     |
-    | By setting this option to open or close operation log in laravel-admin.
+    | By setting this option to open or close operation log in elevate-admin.
     |
     */
     'operation_log' => [
@@ -249,7 +249,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg',
+    'default_avatar' => '/vendor/elevate-admin/AdminLTE/dist/img/user2-160x160.jpg',
 
     /*
     |--------------------------------------------------------------------------
@@ -306,7 +306,7 @@ return [
     | Show version at footer
     |--------------------------------------------------------------------------
     |
-    | Whether to display the version number of laravel-admin at the footer of
+    | Whether to display the version number of elevate-admin at the footer of
     | each page
     |
     */
@@ -401,7 +401,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | You can find all available extensions here
-    | https://github.com/laravel-admin-extensions.
+    | https://github.com/elevate-admin-extensions.
     |
     */
     'extensions' => [

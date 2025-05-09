@@ -49,10 +49,10 @@ just go to this path <YOUR_PROJECT_PATH>\vendor\igorhaf\elevate-admin\src\Traits
 
 ## Contributors
  This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="graphs/contributors"><img src="https://opencollective.com/laravel-admin/contributors.svg?width=890&button=false" /></a>
+<a href="graphs/contributors"><img src="https://opencollective.com/elevate-admin/contributors.svg?width=890&button=false" /></a>
  ## Backers
- Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/laravel-admin#backer)]
- <a href="https://opencollective.com/laravel-admin#backers" target="_blank"><img src="https://opencollective.com/laravel-admin/backers.svg?width=890"></a>
+ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/elevate-admin#backer)]
+ <a href="https://opencollective.com/elevate-admin#backers" target="_blank"><img src="https://opencollective.com/elevate-admin/backers.svg?width=890"></a>
 ...
 
 

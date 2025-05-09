@@ -94,7 +94,7 @@ $form->image('picture')->name(function ($file) {
 
 ```
 
-然后修改`laravel-admin`的上传配置，打开`config/admin.php`找到：
+然后修改`elevate-admin`的上传配置，打开`config/admin.php`找到：
 
 ```php
 

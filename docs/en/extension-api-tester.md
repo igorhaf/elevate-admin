@@ -7,7 +7,7 @@
 ## Installation
 
 ```shell
-$ composer require laravel-admin-ext/api-tester -vvv
+$ composer require elevate-admin-ext/api-tester -vvv
 
 $ php artisan vendor:publish --tag=api-tester
 

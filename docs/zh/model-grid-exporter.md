@@ -1,6 +1,6 @@
 # 自定义导出
 
-laravel-admin的数据表格默认支持导出csv文件，
+elevate-admin的数据表格默认支持导出csv文件，
 
 ```php
 <?php

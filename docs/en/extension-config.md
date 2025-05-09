@@ -7,7 +7,7 @@ This tool will store the configuration data in the database
 ## Installation
 
 ```
-$ composer require laravel-admin-ext/config
+$ composer require elevate-admin-ext/config
 
 $ php artisan migrate
 ```

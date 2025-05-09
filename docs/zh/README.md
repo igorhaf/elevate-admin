@@ -1,14 +1,14 @@
-# laravel-admin
+# elevate-admin
 
-[![Build Status](https://travis-ci.org/z-song/laravel-admin.svg?branch=master)](https://travis-ci.org/z-song/laravel-admin)
+[![Build Status](https://travis-ci.org/z-song/elevate-admin.svg?branch=master)](https://travis-ci.org/z-song/elevate-admin)
 [![StyleCI](https://styleci.io/repos/48796179/shield)](https://styleci.io/repos/48796179)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/z-song/laravel-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/z-song/laravel-admin/?branch=master)
-[![Packagist](https://img.shields.io/packagist/l/igorhaf/laravel-admin.svg?maxAge=2592000)](https://packagist.org/packages/igorhaf/laravel-admin)
-[![Total Downloads](https://img.shields.io/packagist/dt/igorhaf/laravel-admin.svg?style=flat-square)](https://packagist.org/packages/igorhaf/laravel-admin)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/z-song/elevate-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/z-song/elevate-admin/?branch=master)
+[![Packagist](https://img.shields.io/packagist/l/igorhaf/elevate-admin.svg?maxAge=2592000)](https://packagist.org/packages/igorhaf/elevate-admin)
+[![Total Downloads](https://img.shields.io/packagist/dt/igorhaf/elevate-admin.svg?style=flat-square)](https://packagist.org/packages/igorhaf/elevate-admin)
 
-`laravel-admin` 是一个可以快速帮你构建后台管理的工具，它提供的页面组件和表单元素等功能，能帮助你使用很少的代码就实现功能完善的后台管理功能。
+`elevate-admin` 是一个可以快速帮你构建后台管理的工具，它提供的页面组件和表单元素等功能，能帮助你使用很少的代码就实现功能完善的后台管理功能。
 
-> 当前版本(1.5)需要安装`PHP 7+`和`Laravel 5.5`, 如果你使用更早的版本，请参考文档: [1.4](http://laravel-admin.org/docs/v1.4/#/zh/) 
+> 当前版本(1.5)需要安装`PHP 7+`和`Laravel 5.5`, 如果你使用更早的版本，请参考文档: [1.4](http://elevate-admin.org/docs/v1.4/#/zh/) 
 
 ## 特性
 
@@ -27,11 +27,11 @@
 
 ## Demo
 
-打开`http://laravel-admin.org/demo/`，用账号密码`admin/admin`登陆
+打开`http://elevate-admin.org/demo/`，用账号密码`admin/admin`登陆
 
 # 依赖
 
-`laravel-admin` 基于以下组件或者服务:
+`elevate-admin` 基于以下组件或者服务:
 
 + [Laravel](https://laravel.com/)
 + [AdminLTE](https://almsaeedstudio.com/)
@@ -64,4 +64,4 @@ QQ群:278455482(已满)、635881319(已满)、533701919
 
 ## License
 
-`laravel-admin` is licensed under [The MIT License (MIT)](zh/LICENSE).
+`elevate-admin` is licensed under [The MIT License (MIT)](zh/LICENSE).

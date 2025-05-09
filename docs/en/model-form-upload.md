@@ -96,7 +96,7 @@ Also configure the disk, in the `config/filesystems.php` add an item:
 
 ```
 
-Then modify the upload configuration of `laravel-admin` and open `config/admin.php` to find:
+Then modify the upload configuration of `elevate-admin` and open `config/admin.php` to find:
 
 ```php
 

@@ -42,7 +42,7 @@ trait HasAssets
     /**
      * @var string
      */
-    public static $manifest = 'vendor/laravel-admin/minify-manifest.json';
+    public static $manifest = 'vendor/elevate-admin/minify-manifest.json';
 
     /**
      * @var array
@@ -53,46 +53,46 @@ trait HasAssets
      * @var array
      */
     public static $min = [
-        'js'  => 'vendor/laravel-admin/laravel-admin.min.js',
-        'css' => 'vendor/laravel-admin/laravel-admin.min.css',
+        'js'  => 'vendor/elevate-admin/elevate-admin.min.js',
+        'css' => 'vendor/elevate-admin/elevate-admin.min.css',
     ];
 
     /**
      * @var array
      */
     public static $baseCss = [
-        'vendor/laravel-admin/AdminLTE/bootstrap/css/bootstrap.min.css',
-        'vendor/laravel-admin/font-awesome/css/font-awesome.min.css',
-        'vendor/laravel-admin/laravel-admin/laravel-admin.css',
-        'vendor/laravel-admin/nprogress/nprogress.css',
-        'vendor/laravel-admin/sweetalert2/dist/sweetalert2.css',
-        'vendor/laravel-admin/nestable/nestable.css',
-        'vendor/laravel-admin/toastr/build/toastr.min.css',
-        'vendor/laravel-admin/bootstrap3-editable/css/bootstrap-editable.css',
-        'vendor/laravel-admin/google-fonts/fonts.css',
-        'vendor/laravel-admin/AdminLTE/dist/css/AdminLTE.min.css',
+        'vendor/elevate-admin/AdminLTE/bootstrap/css/bootstrap.min.css',
+        'vendor/elevate-admin/font-awesome/css/font-awesome.min.css',
+        'vendor/elevate-admin/elevate-admin/elevate-admin.css',
+        'vendor/elevate-admin/nprogress/nprogress.css',
+        'vendor/elevate-admin/sweetalert2/dist/sweetalert2.css',
+        'vendor/elevate-admin/nestable/nestable.css',
+        'vendor/elevate-admin/toastr/build/toastr.min.css',
+        'vendor/elevate-admin/bootstrap3-editable/css/bootstrap-editable.css',
+        'vendor/elevate-admin/google-fonts/fonts.css',
+        'vendor/elevate-admin/AdminLTE/dist/css/AdminLTE.min.css',
     ];
 
     /**
      * @var array
      */
     public static $baseJs = [
-        'vendor/laravel-admin/AdminLTE/bootstrap/js/bootstrap.min.js',
-        'vendor/laravel-admin/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js',
-        'vendor/laravel-admin/AdminLTE/dist/js/app.min.js',
-        'vendor/laravel-admin/jquery-pjax/jquery.pjax.js',
-        'vendor/laravel-admin/nprogress/nprogress.js',
-        'vendor/laravel-admin/nestable/jquery.nestable.js',
-        'vendor/laravel-admin/toastr/build/toastr.min.js',
-        'vendor/laravel-admin/bootstrap3-editable/js/bootstrap-editable.min.js',
-        'vendor/laravel-admin/sweetalert2/dist/sweetalert2.min.js',
-        'vendor/laravel-admin/laravel-admin/laravel-admin.js',
+        'vendor/elevate-admin/AdminLTE/bootstrap/js/bootstrap.min.js',
+        'vendor/elevate-admin/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js',
+        'vendor/elevate-admin/AdminLTE/dist/js/app.min.js',
+        'vendor/elevate-admin/jquery-pjax/jquery.pjax.js',
+        'vendor/elevate-admin/nprogress/nprogress.js',
+        'vendor/elevate-admin/nestable/jquery.nestable.js',
+        'vendor/elevate-admin/toastr/build/toastr.min.js',
+        'vendor/elevate-admin/bootstrap3-editable/js/bootstrap-editable.min.js',
+        'vendor/elevate-admin/sweetalert2/dist/sweetalert2.min.js',
+        'vendor/elevate-admin/elevate-admin/elevate-admin.js',
     ];
 
     /**
      * @var string
      */
-    public static $jQuery = 'vendor/laravel-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js';
+    public static $jQuery = 'vendor/elevate-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js';
 
     /**
      * @var array
@@ -140,7 +140,7 @@ trait HasAssets
 
         $skin = config('admin.skin', 'skin-blue-light');
 
-        array_unshift(static::$baseCss, "vendor/laravel-admin/AdminLTE/dist/css/skins/{$skin}.min.css");
+        array_unshift(static::$baseCss, "vendor/elevate-admin/AdminLTE/dist/css/skins/{$skin}.min.css");
 
         return static::$baseCss;
     }

@@ -1,11 +1,11 @@
 # 安装
 
-> 当前版本(1.5)需要安装`PHP 7+`和`Laravel 5.5`, 如果你使用更早的版本，请参考文档: [1.4](http://laravel-admin.org/docs/v1.4/#/zh/) 
+> 当前版本(1.5)需要安装`PHP 7+`和`Laravel 5.5`, 如果你使用更早的版本，请参考文档: [1.4](http://elevate-admin.org/docs/v1.4/#/zh/) 
 
 首先确保安装好了`laravel`，并且数据库连接设置正确。
 
 ```
-composer require igorhaf/laravel-admin "1.5.*"
+composer require igorhaf/elevate-admin "1.5.*"
 ```
 
 然后运行下面的命令来发布资源：
@@ -29,7 +29,7 @@ php artisan admin:install
 
 ### 配置文件
 
-安装完成之后，`laravel-admin`所有的配置都在`config/admin.php`文件中。
+安装完成之后，`elevate-admin`所有的配置都在`config/admin.php`文件中。
 
 ### 后台项目文件
 安装完成之后，后台的安装目录为`app/Admin`，之后大部分的后台开发编码工作都是在这个目录下进行。
@@ -45,10 +45,10 @@ app/Admin
 
 `app/Admin/routes.php`文件用来配置后台路由。
 
-`app/Admin/bootstrap.php` 是`laravel-admin`的启动文件, 使用方法请参考文件里面的注释.
+`app/Admin/bootstrap.php` 是`elevate-admin`的启动文件, 使用方法请参考文件里面的注释.
 
 `app/Admin/Controllers`目录用来存放后台控制器文件，该目录下的`HomeController.php`文件是后台首页的显示控制器，`ExampleController.php`为实例文件。
 
 ### 静态文件
 
-后台所需的前端静态文件在`/public/vendor/laravel-admin`目录下.
+后台所需的前端静态文件在`/public/vendor/elevate-admin`目录下.

@@ -1,6 +1,6 @@
 # Page content
 
-The layout usage of `laravel-admin` can be found in the `index()` method of the home page's layout file [HomeController.php](https://github.com/z-song/laravel-admin/blob/master/src/Console/stubs/HomeController.stub).
+The layout usage of `elevate-admin` can be found in the `index()` method of the home page's layout file [HomeController.php](https://github.com/z-song/elevate-admin/blob/master/src/Console/stubs/HomeController.stub).
 
 The `Igorhaf\Admin\Layout\Content` class is used to implement the layout of the content area. The `Content::body ($element)` method is used to add page content:
 
@@ -34,7 +34,7 @@ Method `$content->body();` can accepts any renderable objects, like string, numb
 
 ## Layout
 
-`laravel-admin` use grid system of bootstrap,The length of each line is 12, the following is a few simple examples:
+`elevate-admin` use grid system of bootstrap,The length of each line is 12, the following is a few simple examples:
 
 Add a line of content:
 

@@ -7,7 +7,7 @@
 ## 安装
 
 ```
-$ composer require laravel-admin-ext/media-manager -vvv
+$ composer require elevate-admin-ext/media-manager -vvv
 
 $ php artisan admin:import media-manager
 ```

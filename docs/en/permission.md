@@ -1,10 +1,10 @@
 # Access Control
 
-`laravel-admin` has built-in` RBAC` permissions control module, expand the left sidebar `Auth`, you can see user, permissions and roles management panel, the use of permissions control as follows:
+`elevate-admin` has built-in` RBAC` permissions control module, expand the left sidebar `Auth`, you can see user, permissions and roles management panel, the use of permissions control as follows:
 
 ## Route permission
 
-In the `laravel-admin 1.5`, the permissions and routes are bound together, in the edit permission page which set the current permissions can access the routing, in the `HTTP method` select box to select the method of access to the path, in the `HTTP path` textarea fill in the path to access.
+In the `elevate-admin 1.5`, the permissions and routes are bound together, in the edit permission page which set the current permissions can access the routing, in the `HTTP method` select box to select the method of access to the path, in the `HTTP path` textarea fill in the path to access.
 
 For example, to add a permission, the permission can access the path `/admin/users` in GET method, then `HTTP method` select `GET`, `HTTP path` fill in `/users`.
 

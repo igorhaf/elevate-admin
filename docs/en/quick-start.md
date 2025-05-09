@@ -41,7 +41,7 @@ $router->resource('demo/users', UserController::class);
 
 Open `http://localhost:8000/admin/auth/menu`, add menu link and refresh the page, then you can find a link item in left menu bar.
 
-> Where `uri` fills in the path part that does not contain the prefix of the route, such as the full path `http://localhost:8000/admin/demo/users`, just input `demo/users`, If you want to add an external link, just fill in the full url, such as `http://laravel-admin.org/`.
+> Where `uri` fills in the path part that does not contain the prefix of the route, such as the full path `http://localhost:8000/admin/demo/users`, just input `demo/users`, If you want to add an external link, just fill in the full url, such as `http://elevate-admin.org/`.
 
 ### Menu translations
 

@@ -4,7 +4,7 @@
 
 form表单内置的`map`和`editor`组件通过cdn的方式引用了前端文件，如果网络方面有问题，可以通过下面的方式将它们移除
 
-找到文件`app/Admin/bootstrap.php`,如果文件不存在，请更新`laravel-admin`，然后新建该文件
+找到文件`app/Admin/bootstrap.php`,如果文件不存在，请更新`elevate-admin`，然后新建该文件
 
 ```php
 
@@ -29,7 +29,7 @@ Form::forget(['map', 'editor']);
 
 ### 集成富文本编辑器wangEditor
 
-[wangEditor](http://www.wangeditor.com/)是一个优秀的国产的轻量级富文本编辑器，如果`laravel-admin`自带的基于`ckeditor`的编辑器组件使用上有问题，可以通过下面的步骤可以集成它，并覆盖掉`ckeditor`：
+[wangEditor](http://www.wangeditor.com/)是一个优秀的国产的轻量级富文本编辑器，如果`elevate-admin`自带的基于`ckeditor`的编辑器组件使用上有问题，可以通过下面的步骤可以集成它，并覆盖掉`ckeditor`：
 
 先下载前端库文件[wangEditor](https://github.com/wangfupeng1988/wangEditor/releases)，解压到目录`public/vendor/wangEditor-3.0.9`。
 
@@ -97,7 +97,7 @@ EOT;
 </div>
 ```
 
-然后注册进`laravel-admin`,在`app/Admin/bootstrap.php`中添加以下代码：
+然后注册进`elevate-admin`,在`app/Admin/bootstrap.php`中添加以下代码：
 
 ```php
 
@@ -237,7 +237,7 @@ EOT;
 
 ```
 
->类中的静态资源也同样可以从外部引入，参考[Editor.php](https://github.com/z-song/laravel-admin/blob/1.3/src/Form/Field/Editor.php)
+>类中的静态资源也同样可以从外部引入，参考[Editor.php](https://github.com/z-song/elevate-admin/blob/1.3/src/Form/Field/Editor.php)
 
 创建视图`resources/views/admin/php-editor.blade.php`:
 
@@ -257,7 +257,7 @@ EOT;
 
 ```
 
-最后找到文件`app/Admin/bootstrap.php`,如果文件不存在，请更新`laravel-admin`，然后新建该文件,添加下面代码：
+最后找到文件`app/Admin/bootstrap.php`,如果文件不存在，请更新`elevate-admin`，然后新建该文件,添加下面代码：
 
 ```
 <?php

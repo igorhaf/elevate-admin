@@ -231,7 +231,7 @@ abstract class Extension
     }
 
     /**
-     * Import menu item and permission to laravel-admin.
+     * Import menu item and permission to elevate-admin.
      */
     public static function import()
     {
@@ -343,7 +343,7 @@ abstract class Extension
     }
 
     /**
-     * Create a item in laravel-admin left side menu.
+     * Create a item in elevate-admin left side menu.
      *
      * @param string $title
      * @param string $uri

@@ -4,7 +4,7 @@
 
 安装：
 ```php
-composer require laravel-admin-ext/helpers
+composer require elevate-admin-ext/helpers
 
 php artisan admin:import helpers
 ```

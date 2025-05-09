@@ -1,6 +1,6 @@
 # Custom chart
 
-`laravel-admin 1.5` has removed all the chart components. If you want to add chart components to the page, you can refer to the following process
+`elevate-admin 1.5` has removed all the chart components. If you want to add chart components to the page, you can refer to the following process
 
 Use `chartjs` for example, first download [chartjs](http://chartjs.org/), put it under the public directory, such as in the `public/vendor/chartjs` directory
 

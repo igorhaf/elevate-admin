@@ -5,7 +5,7 @@
 
 The built-in `map` and `editor` fields requires the front-end files via cdn, and if there are problems with the network, they can be removed in the following ways
 
-Locate the file `app/Admin/bootstrap.php`. If the file does not exist, update `laravel-admin` and create this file.
+Locate the file `app/Admin/bootstrap.php`. If the file does not exist, update `elevate-admin` and create this file.
 
 ```php
 
@@ -82,7 +82,7 @@ EOT;
 
 ```
 
->Static resources in the class can also be imported from outside, see [Editor.php](https://github.com/z-song/laravel-admin/blob/1.3/src/Form/Field/Editor.php)
+>Static resources in the class can also be imported from outside, see [Editor.php](https://github.com/z-song/elevate-admin/blob/1.3/src/Form/Field/Editor.php)
 
 Create a view file `resources/views/admin/php-editor.blade.php`:
 
@@ -102,7 +102,7 @@ Create a view file `resources/views/admin/php-editor.blade.php`:
 
 ```
 
-Finally, find the file `app/Admin/bootstrap.php`, if the file does not exist, update `laravel-admin`, and then create this file, add the following code:
+Finally, find the file `app/Admin/bootstrap.php`, if the file does not exist, update `elevate-admin`, and then create this file, add the following code:
 
 ```
 <?php
