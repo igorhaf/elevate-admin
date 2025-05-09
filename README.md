@@ -17,12 +17,12 @@ Requirements
 Installation
 ------------
 
-composer require encore/elevate-admin
+composer require igorhaf/elevate-admin
 
 
 Then run these commands to publish assets and config：
 
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Igorhaf\Admin\AdminServiceProvider"
 
 After run command you can find config file in config/admin.php, in this file you can change the install directory,db connection or table names.
 
@@ -38,7 +38,7 @@ The file config/admin.php contains an array of configurations, you can find the 
 
 Right to left support
 ------------
-just go to this path <YOUR_PROJECT_PATH>\vendor\encore\elevate-admin\src\Traits\HasAssets.php and modify $baseCss array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
+just go to this path <YOUR_PROJECT_PATH>\vendor\igorhaf\elevate-admin\src\Traits\HasAssets.php and modify $baseCss array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
 **bootstrap.min.css** change it to **bootstrap.rtl.min.css**    
 **AdminLTE.min.css** change it to **AdminLTE.rtl.min.css**  
 
