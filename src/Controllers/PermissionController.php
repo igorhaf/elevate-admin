@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Igorhaf\Admin\Controllers;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Show;
+use Igorhaf\Admin\Form;
+use Igorhaf\Admin\Grid;
+use Igorhaf\Admin\Show;
 use Illuminate\Support\Str;
 
 class PermissionController extends AdminController

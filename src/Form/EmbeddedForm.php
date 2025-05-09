@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Igorhaf\Admin\Form;
 
-use Encore\Admin\Form;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Igorhaf\Admin\Form;
+use Igorhaf\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

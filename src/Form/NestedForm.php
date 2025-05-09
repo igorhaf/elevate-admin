@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Igorhaf\Admin\Form;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Form;
+use Igorhaf\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -92,7 +92,7 @@ class NestedForm
     protected $original = [];
 
     /**
-     * @var \Encore\Admin\Form|\Encore\Admin\Widgets\Form
+     * @var \Igorhaf\Admin\Form|\Igorhaf\Admin\Widgets\Form
      */
     protected $form;
 
@@ -290,7 +290,7 @@ class NestedForm
                 $value = $field->prepare($value);
             }
 
-            if (($field instanceof \Encore\Admin\Form\Field\Hidden) || $value != $field->original()) {
+            if (($field instanceof \Igorhaf\Admin\Form\Field\Hidden) || $value != $field->original()) {
                 if (is_array($columns)) {
                     foreach ($columns as $name => $column) {
                         Arr::set($prepared, $column, $value[$name]);

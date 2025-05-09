@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Igorhaf\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Form\Field;
 use Illuminate\Support\Arr;
 
 class KeyValue extends Field

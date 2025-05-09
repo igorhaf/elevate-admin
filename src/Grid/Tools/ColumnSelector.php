@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Igorhaf\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Grid;
 use Illuminate\Support\Collection;
 
 class ColumnSelector extends AbstractTool

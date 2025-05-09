@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Igorhaf\Admin\Traits;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Tree;
+use Igorhaf\Admin\Form;
+use Igorhaf\Admin\Grid;
+use Igorhaf\Admin\Tree;
 
 /**
  * @deprecated

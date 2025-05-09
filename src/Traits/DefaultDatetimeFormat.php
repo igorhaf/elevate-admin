@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Igorhaf\Admin\Traits;
 
 use Carbon\Carbon;
 

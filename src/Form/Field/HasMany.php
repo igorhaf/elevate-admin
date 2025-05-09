@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Igorhaf\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\NestedForm;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Form;
+use Igorhaf\Admin\Form\Field;
+use Igorhaf\Admin\Form\NestedForm;
+use Igorhaf\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Database\Eloquent\Relations\HasMany as Relation;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Arr;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Concerns;
+namespace Igorhaf\Admin\Form\Concerns;
 
-use Encore\Admin\Form\Field;
+use Igorhaf\Admin\Form\Field;
 
 trait HandleCascadeFields
 {

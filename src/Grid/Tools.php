@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Igorhaf\Admin\Grid;
 
-use Encore\Admin\Actions\GridAction;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\AbstractTool;
-use Encore\Admin\Grid\Tools\BatchActions;
-use Encore\Admin\Grid\Tools\FilterButton;
+use Igorhaf\Admin\Actions\GridAction;
+use Igorhaf\Admin\Grid;
+use Igorhaf\Admin\Grid\Tools\AbstractTool;
+use Igorhaf\Admin\Grid\Tools\BatchActions;
+use Igorhaf\Admin\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

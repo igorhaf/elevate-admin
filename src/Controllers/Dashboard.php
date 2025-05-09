@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Igorhaf\Admin\Controllers;
 
-use Encore\Admin\Admin;
+use Igorhaf\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class Dashboard

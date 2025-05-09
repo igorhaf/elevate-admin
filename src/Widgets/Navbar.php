@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Igorhaf\Admin\Widgets;
 
-use Encore\Admin\Widgets\Navbar\RefreshButton;
+use Igorhaf\Admin\Widgets\Navbar\RefreshButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

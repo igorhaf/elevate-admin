@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Igorhaf\Admin\Form\Field;
 
-use Encore\Admin\Admin;
+use Igorhaf\Admin\Admin;
 
 class Fieldset
 {

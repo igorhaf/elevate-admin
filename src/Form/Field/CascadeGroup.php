@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Igorhaf\Admin\Form\Field;
 
-use Encore\Admin\Form\Field;
+use Igorhaf\Admin\Form\Field;
 
 class CascadeGroup extends Field
 {

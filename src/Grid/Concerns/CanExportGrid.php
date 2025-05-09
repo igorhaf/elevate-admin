@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Igorhaf\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporter;
-use Encore\Admin\Grid\Exporters\AbstractExporter;
+use Igorhaf\Admin\Grid;
+use Igorhaf\Admin\Grid\Exporter;
+use Igorhaf\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

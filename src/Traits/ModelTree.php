@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Igorhaf\Admin\Traits;
 
-use Encore\Admin\Tree;
+use Igorhaf\Admin\Tree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;

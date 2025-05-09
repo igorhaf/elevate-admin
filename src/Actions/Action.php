@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Igorhaf\Admin\Actions;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

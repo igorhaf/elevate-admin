@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Igorhaf\Admin\Grid\Concerns;
 
-use Encore\Admin\Admin;
+use Igorhaf\Admin\Admin;
 
 trait HasHotKeys
 {

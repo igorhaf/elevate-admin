@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Igorhaf\Admin\Grid\Column;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Model;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Grid\Model;
 
 class CheckFilter extends Filter
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Igorhaf\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Igorhaf\Admin\Admin;
+use Igorhaf\Admin\Form;
 use Illuminate\Support\Arr;
 
 /**

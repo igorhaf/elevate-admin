@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin;
+namespace Igorhaf\Admin;
 
 use Closure;
-use Encore\Admin\Tree\Tools;
+use Igorhaf\Admin\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

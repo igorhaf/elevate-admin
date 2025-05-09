@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Igorhaf\Admin\Grid;
 
-use Encore\Admin\Grid;
+use Igorhaf\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

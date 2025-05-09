@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Igorhaf\Admin\Console;
 
-use Encore\Admin\Auth\Database\Permission;
+use Igorhaf\Admin\Auth\Database\Permission;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

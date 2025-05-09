@@ -1,16 +1,16 @@
 <?php
 
-namespace Encore\Admin;
+namespace Igorhaf\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Concerns;
-use Encore\Admin\Grid\Displayers;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Row;
-use Encore\Admin\Grid\Tools;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Igorhaf\Admin\Exception\Handler;
+use Igorhaf\Admin\Grid\Column;
+use Igorhaf\Admin\Grid\Concerns;
+use Igorhaf\Admin\Grid\Displayers;
+use Igorhaf\Admin\Grid\Model;
+use Igorhaf\Admin\Grid\Row;
+use Igorhaf\Admin\Grid\Tools;
+use Igorhaf\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Encore\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Igorhaf\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

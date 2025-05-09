@@ -41,7 +41,7 @@ First define the action class:
 
 namespace App\Admin\Extensions;
 
-use Encore\Admin\Admin;
+use Igorhaf\Admin\Admin;
 
 class CheckRow
 {

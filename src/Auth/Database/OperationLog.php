@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Auth\Database;
+namespace Igorhaf\Admin\Auth\Database;
 
-use Encore\Admin\Traits\DefaultDatetimeFormat;
+use Igorhaf\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

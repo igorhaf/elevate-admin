@@ -1,5 +1,5 @@
 {
-    "name": "encore/laravel-admin",
+    "name": "igorhaf/laravel-admin",
     "description": "laravel admin",
     "type": "library",
     "keywords": ["laravel", "admin", "grid", "form"],
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\": "src/"
+            "Igorhaf\\Admin\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\AdminServiceProvider"
+                "Igorhaf\\Admin\\AdminServiceProvider"
             ],
             "aliases": {
-                "Admin": "Encore\\Admin\\Facades\\Admin"
+                "Admin": "Igorhaf\\Admin\\Facades\\Admin"
             }
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Igorhaf\Admin\Layout;
 
-use Encore\Admin\Grid;
+use Igorhaf\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

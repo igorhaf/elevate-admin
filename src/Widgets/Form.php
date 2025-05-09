@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Igorhaf\Admin\Widgets;
 
 use Closure;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form as BaseForm;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Layout\Content;
+use Igorhaf\Admin\Facades\Admin;
+use Igorhaf\Admin\Form as BaseForm;
+use Igorhaf\Admin\Form\Field;
+use Igorhaf\Admin\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

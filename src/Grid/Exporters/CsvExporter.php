@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Igorhaf\Admin\Grid\Exporters;
 
-use Encore\Admin\Grid\Column;
+use Igorhaf\Admin\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

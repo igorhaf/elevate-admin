@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Igorhaf\Admin\Form\Field;
 
-use Encore\Admin\Form\EmbeddedForm;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Igorhaf\Admin\Form\EmbeddedForm;
+use Igorhaf\Admin\Form\Field;
+use Igorhaf\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 
