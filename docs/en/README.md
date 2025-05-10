@@ -1,12 +1,12 @@
 elevate-admin
 =====
 
-[![Build Status](https://travis-ci.org/z-song/elevate-admin.svg?branch=master)](https://travis-ci.org/z-song/elevate-admin)
+[![Build Status](https://travis-ci.org/igorhaf/elevate-admin.svg?branch=master)](https://travis-ci.org/igorhaf/elevate-admin)
 [![StyleCI](https://styleci.io/repos/48796179/shield)](https://styleci.io/repos/48796179)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/z-song/elevate-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/z-song/elevate-admin/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/igorhaf/elevate-admin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/igorhaf/elevate-admin/?branch=master)
 [![Packagist](https://img.shields.io/packagist/l/igorhaf/elevate-admin.svg?maxAge=2592000)](https://packagist.org/packages/igorhaf/elevate-admin)
 [![Total Downloads](https://img.shields.io/packagist/dt/igorhaf/elevate-admin.svg?style=flat-square)](https://packagist.org/packages/igorhaf/elevate-admin)
-[![Awesome Laravel](https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg)](https://github.com/z-song/elevate-admin)
+[![Awesome Laravel](https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg)](https://github.com/igorhaf/elevate-admin)
 
 `elevate-admin` is administrative interface builder for laravel which can help you build CRUD backends just with few lines of code.
 
