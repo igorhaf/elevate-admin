@@ -71,7 +71,11 @@ trait HasAssets
         'vendor/elevate-admin/bootstrap3-editable/css/bootstrap-editable.css',
         'vendor/elevate-admin/google-fonts/fonts.css',
         'vendor/elevate-admin/AdminLTE/dist/css/AdminLTE.min.css',
+
+        // 🔹 Novo: Tailwind CSS via CDN (vem por último para sobrescrever se necessário)
+        'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css',
     ];
+
 
     /**
      * @var array
@@ -87,7 +91,11 @@ trait HasAssets
         'vendor/elevate-admin/bootstrap3-editable/js/bootstrap-editable.min.js',
         'vendor/elevate-admin/sweetalert2/dist/sweetalert2.min.js',
         'vendor/elevate-admin/elevate-admin/elevate-admin.js',
+
+        // 🔹 Novo: Vue 3 via CDN (modo global)
+        'https://unpkg.com/vue@3/dist/vue.global.prod.js',
     ];
+
 
     /**
      * @var string

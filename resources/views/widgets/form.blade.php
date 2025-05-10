@@ -10,7 +10,7 @@
     @if ($method != 'GET')
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
     @endif
-    
+
     <!-- /.box-body -->
     @if(count($buttons) > 0)
     <div class="box-footer">
